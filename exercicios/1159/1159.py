@@ -12,7 +12,4 @@ while True:
                 i = i+ 1
             else:
                 n = n + 1
-
-    
         print(soma)    
-    
