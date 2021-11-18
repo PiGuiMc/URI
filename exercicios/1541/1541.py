@@ -8,6 +8,8 @@ while True:
         c = int(n[2])
     
     area = a * b
-    total = (area * (c * 100))
+    areac = 8 * 8
+    porc = c / 100
+    total = ((area - areac) * porc)
     print(total)
     
