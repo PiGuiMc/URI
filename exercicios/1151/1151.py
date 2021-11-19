@@ -1,13 +1,17 @@
-x=1
+n =int(input())
+i = 0
 t=[]
-
-while x != 0:
-    x = int(input())
-    for i in range(1, x + 1):
+while i < n:
+    if i == 0 or i == 1:
         t.append(i)
-        t[i-1] = str(t[i-1])
-        i = i + i
-    t=' '.join(t)
-    if x!= 0:      
-        print(t)
-        t =[]
+     
+    if i > 1:
+        aux = t[i-2] +t[i-1]
+      
+        t.append(aux)
+    i = i + 1
+for j in range(0, n):
+    t[j] =str(t[j])
+  
+t = ' '.join(t)
+print(t)
