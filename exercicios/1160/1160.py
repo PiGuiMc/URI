@@ -1,16 +1,22 @@
 n = int(input())
-i = 0
-por = float(0)
 
-while i <= n:
-    pa,pb,g1,g2 = list(map(float,input().split()))
+for i in range(0, n):
+    x = input().split()
 
-    if pa < pb:
-        if g1 >= g2:
-            por = ((pb - pa) * (g1 - g2)) + 1
-            print('{:.0F}'.format(por),'anos.')
-        
-        if g1 <= g2:
-           por = ((pb - pa) * g1) + 1
-           print('aqui')
-           print('{:.0F}'.format(por),'anos.')
+    pa = int(x[0])
+    pb = int(x[1])
+    g1 = float(x[2])/100
+    g2 = float(x[3])/100
+    anos = 0
+    while True:
+        pa += int(pa * g1)
+        pb += int(pb * g2)
+        anos += 1
+
+        if pa > pb or anos > 100:
+            break
+
+    if anos <= 100:
+        print(anos,'anos.')
+    else:
+        print('Mais de 1 seculo.')
