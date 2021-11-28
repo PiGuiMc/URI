@@ -1,7 +1,7 @@
 c = int(input())
 t = input()
 
-tamanho = 12
+tamanho = 3
 matriz = []
 
 for i in range(tamanho):
@@ -11,11 +11,11 @@ for i in range(tamanho):
     for j in range(tamanho):
         matriz[i].append(float(input()))
 
-"""for i in range(tamanho):
+for i in range(tamanho):
     for j in range(tamanho):
         print(matriz[i][j], end=' ')
     print()
-"""
+
 soma = 0
 for i in range(tamanho):
     soma += matriz[i][c]

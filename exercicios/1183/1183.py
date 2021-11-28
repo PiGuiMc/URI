@@ -1,6 +1,6 @@
 o=input()
 m = []
-tamanho = 12
+tamanho = 3
 for i in range(tamanho):
     m.append([])
   
@@ -13,7 +13,6 @@ if o == 'S':
     c = 1
     for i in range(0,tamanho-1):
         for j in range(c,tamanho):
-            #print('m[{}][{}]'.format(i,j))
             s = s + m[i][j]
         c = c + 1
     print('{:.1f}'.format(s))
@@ -24,7 +23,6 @@ if o == 'M':
     c2=0
     for i in range(0,tamanho-1):
         for j in range(c,tamanho):
-            #print('m[{}][{}]'.format(i,j))
             s = s + m[i][j]
             c2= c2 + 1
         c = c + 1
