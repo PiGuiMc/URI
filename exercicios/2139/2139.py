@@ -4,7 +4,7 @@ while 1:
     try:
 
         v = input()
-        v=v.split('')
+        v=v.split(' ')
         m = int(v[0])
         d = int(v[1])
         tt = 0
@@ -23,5 +23,6 @@ while 1:
             
             tt -= d
             tt -=6
+            print('Faltam %d dias para o natal!' %tt)
     except:
         break
