@@ -22,6 +22,11 @@ elif(h_ini <= h_fim) and m_ini >= m_fim:
         h = 0
         m =   hora - (m_ini - m_fim)
         print('O JOGO DUROU {:.0F}'.format(h),'HORA(S) E {:.0F}'.format(m),'MINUTO(S)')
+    
+    elif (h_fim - h_ini) == 0 and (m_ini >= m_fim):
+        h = 23
+        m = 60 - (m_ini - m_fim)
+        print('O JOGO DUROU {:.0F}'.format(h),'HORA(S) E {:.0F}'.format(m),'MINUTO(S)')
 
 elif(h_ini >= h_fim) and m_ini >= m_fim:
     if(h_fim - h_ini) > 0 and m_ini >= m_fim:
