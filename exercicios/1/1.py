@@ -1,1 +1,3 @@
-print('Hello World!')
+teste = str(input())
+
+print(teste)
