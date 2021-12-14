@@ -1,3 +1,3 @@
-teste = str(input())
+teste = input()
 
 print(teste)
