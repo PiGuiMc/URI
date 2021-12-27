@@ -21,5 +21,5 @@ for i in range(n):
             aux.append(x)
             aux = sorted(aux)
             menor = min(aux)
-
+    #result
     print('{:.2f}'.format(menor))
