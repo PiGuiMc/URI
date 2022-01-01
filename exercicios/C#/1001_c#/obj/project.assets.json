@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gui\\URI Online Judge\\exercicios\\1001\\1001_c#\\1001_c#.csproj",
+      "projectUniqueName": "C:\\Users\\gui\\URI Online Judge\\exercicios\\C#\\1001_c#\\1001_c#.csproj",
       "projectName": "1001_c#",
-      "projectPath": "C:\\Users\\gui\\URI Online Judge\\exercicios\\1001\\1001_c#\\1001_c#.csproj",
+      "projectPath": "C:\\Users\\gui\\URI Online Judge\\exercicios\\C#\\1001_c#\\1001_c#.csproj",
       "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gui\\URI Online Judge\\exercicios\\1001\\1001_c#\\obj\\",
+      "outputPath": "C:\\Users\\gui\\URI Online Judge\\exercicios\\C#\\1001_c#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
