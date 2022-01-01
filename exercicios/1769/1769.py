@@ -1,25 +1,36 @@
-def cpf_validate(numbers):
-  
-    cpf = [int(char) for char in numbers if char.isdigit()]
+try:
+    while True:
+        c=0
+        d=10
 
-    if len(cpf) != 11:
-        return False
+        sc=0
+        sd=0
 
-    if cpf == cpf[::-1]:
-        return False
+        cpf = input().split("-")
+        vrf1 = cpf[1][0]
+        vrf2 = cpf[1][1]
 
-    for i in range(9, 11):
-        value = sum((cpf[num] * ((i+1) - num) for num in range(0, i)))
-        digit = ((value * 10) % 11) % 10
-        if digit != cpf[i]:
-            return False
-    return True
+        for i in cpf[0]:
+            if i != ".":
+                c += 1
+                d -= 1
 
+                sc += int(i)*c
+                sd += int(i)*d
 
-while True:
-    cpf = input()
-    if cpf_validate(cpf):
-        print('CPF valido')
-    else:
-        print('CPF invalido')
-    
+        if sc%11 == 10:
+            sc = 0
+        else:
+            sc = sc%11
+
+        if sd%11 == 10:
+            sd = 0
+        else:
+            sd = sd%11
+
+        if vrf1 == str(sc) and vrf2 == str(sd):
+            print("CPF valido")
+        else:
+            print("CPF invalido")
+except:
+    pass
