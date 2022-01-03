@@ -13,12 +13,9 @@ namespace _1038_c_
 
             int Codigo = Convert.ToInt32(Valores[0]);
             int Qt = Convert.ToInt32(Valores[1]);
-            
 
             double Total = Convert.ToDouble(Qt) * Valor[Codigo];
             Console.WriteLine("Total: R$ {0}",Total.ToString("0.00"));
-
-
         }
     }
 }
