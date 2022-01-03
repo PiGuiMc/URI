@@ -1,52 +1,41 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 
-public class SamplesArray  {
+namespace Demo {
+   public class Program {
+      public static void Main(String[] args) {
+         List<int> list1 = new List<int>();
+         List<int> list2 = new List<int>();
+         
+        
+        String[] Entrada = Console.ReadLine().Split(' ');
 
-   public class myReverserClass : IComparer  {
+        int A = Convert.ToInt32(Entrada[0]);
+        int B = Convert.ToInt32(Entrada[1]);
+        int C = Convert.ToInt32(Entrada[2]);
+        list1.Add(A);
+        list1.Add(B);
+        list1.Add(C);
 
-      // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
-      int IComparer.Compare( Object x, Object y )  {
-          return( (new CaseInsensitiveComparer()).Compare( y, x ) );
+        list2.Add(A);
+        list2.Add(B);
+        list2.Add(C);
+
+        
+        list1.Sort();
+        foreach (int x in list1)
+        {
+        Console.WriteLine(x);
+        }
+
+        Console.WriteLine();
+        
+        foreach (int x in list2)
+        {
+        Console.WriteLine(x);
+        }
       }
-   }
-
-   public static void Main()  {
-
-      // Creates and initializes a new Array and a new custom comparer.
-      String[] myKeys = Console.ReadLine().Split(' ');
-      String[] myValues = { "strawberries", "PEARS", "LIMES", "BERRIES", "grapes", "olives", "cantaloupe" };
-      IComparer myComparer = new myReverserClass();
-
-      // Displays the values of the Array.
-      Console.WriteLine( "The Array initially contains the following values:" );
-      PrintKeysAndValues( myKeys, myValues );
-
-      // Sorts a section of the Array using the default comparer.
-      Array.Sort( myKeys, myValues, 1, 3 );
-      Console.WriteLine( "After sorting a section of the Array using the default comparer:" );
-      PrintKeysAndValues( myKeys, myValues );
-
-      // Sorts a section of the Array using the reverse case-insensitive comparer.
-      Array.Sort( myKeys, myValues, 1, 3, myComparer );
-      Console.WriteLine( "After sorting a section of the Array using the reverse case-insensitive comparer:" );
-      PrintKeysAndValues( myKeys, myValues );
-
-      // Sorts the entire Array using the default comparer.
-      Array.Sort( myKeys, myValues );
-      Console.WriteLine( "After sorting the entire Array using the default comparer:" );
-      PrintKeysAndValues( myKeys, myValues );
-
-      // Sorts the entire Array using the reverse case-insensitive comparer.
-      Array.Sort( myKeys, myValues, myComparer );
-      Console.WriteLine( "After sorting the entire Array using the reverse case-insensitive comparer:" );
-      PrintKeysAndValues( myKeys, myValues );
-   }
-
-   public static void PrintKeysAndValues( String[] myKeys, String[] myValues )  {
-      for ( int i = 0; i < myKeys.Length; i++ )  {
-         Console.WriteLine( "   {0,-10}: {1}", myKeys[i], myValues[i] );
-      }
-      Console.WriteLine();
    }
 }
