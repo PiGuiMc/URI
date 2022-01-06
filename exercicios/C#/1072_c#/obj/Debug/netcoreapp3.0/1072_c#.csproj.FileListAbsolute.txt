@@ -1,0 +1,11 @@
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\obj\Debug\netcoreapp3.0\1072_c#.csprojAssemblyReference.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\obj\Debug\netcoreapp3.0\1072_c#.AssemblyInfoInputs.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\obj\Debug\netcoreapp3.0\1072_c#.AssemblyInfo.cs
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\bin\Debug\netcoreapp3.0\1072_c#.exe
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\bin\Debug\netcoreapp3.0\1072_c#.deps.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\bin\Debug\netcoreapp3.0\1072_c#.runtimeconfig.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\bin\Debug\netcoreapp3.0\1072_c#.runtimeconfig.dev.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\bin\Debug\netcoreapp3.0\1072_c#.dll
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\bin\Debug\netcoreapp3.0\1072_c#.pdb
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\obj\Debug\netcoreapp3.0\1072_c#.dll
+C:\Users\gui\URI Online Judge\exercicios\C#\1072_c#\obj\Debug\netcoreapp3.0\1072_c#.pdb
