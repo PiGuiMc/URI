@@ -11,7 +11,7 @@ namespace _1044_c_
             int B = Convert.ToInt32(Entrada[1]);
             int op1 = B%A;
             int op2 = A%B;
-            if((s == 0) || (op2 == 0))
+            if((op1 == 0) || (op2 == 0))
             {
                 Console.WriteLine("Sao Multiplos");
             }
