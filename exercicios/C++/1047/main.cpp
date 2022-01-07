@@ -1,20 +1,10 @@
-﻿using System;
-using System.Globalization;
-namespace _1047_c_
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int h = 0, m= 0;
-            String[] Entrada = Console.ReadLine().Split(' ');
+#include<bits/stdc++.h>
+using namespace std;
 
-            int hi = Convert.ToInt32(Entrada[0], CultureInfo.InvariantCulture);
-            int mi = Convert.ToInt32(Entrada[1], CultureInfo.InvariantCulture);
-            int hf = Convert.ToInt32(Entrada[2], CultureInfo.InvariantCulture);
-            int mf = Convert.ToInt32(Entrada[3], CultureInfo.InvariantCulture);
+int main(){
+    int hi, mi, hf,mf, h=0, m=0;
+    cin >>hi>>mi>>hf>>mf;
 
-        
     if(hi < hf){
         h = hf - hi;
         if(mi < mf){
@@ -49,7 +39,6 @@ namespace _1047_c_
             m = 0;
         }
     }
-            Console.WriteLine("O JOGO DUROU {0} HORA(S) E {1} MINUTO(S)",h.ToString(),m.ToString());
-        }
-    }
-}
+    cout << "O JOGO DUROU " << h << " HORA(S) E " << m << " MINUTO(S)" << endl;
+    
+return 0;}
