@@ -1,0 +1,3 @@
+C:\Users\gui\URI Online Judge\exercicios\C#\1080_c#\obj\Debug\netcoreapp3.0\1080_c#.csprojAssemblyReference.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1080_c#\obj\Debug\netcoreapp3.0\1080_c#.AssemblyInfoInputs.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1080_c#\obj\Debug\netcoreapp3.0\1080_c#.AssemblyInfo.cs
