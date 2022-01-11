@@ -1,33 +1,34 @@
 #include <bits/stdc++.h>
-using namespace std;
 
+using namespace std;
 int main(){
-    int i=0,op;
-    float med,nota;
-    while(true){
-        while(i < 2){
-            cin >> nota;
-            if(nota >=0 && nota <= 10){
-                i = i + 1;
-                med = med + nota;
-            }else if(nota < 0 || nota > 10){
+     float x = -1, y = -1;
+    int value = 1;
+
+    while(value == 1)
+    {
+        do{
+            cin >> x;
+            if(x < 0 || x > 10)
                 cout << "nota invalida" << endl;
-            }
-        }
-        med = med / 2;
-        printf("media = %.2f\n",med);
-        printf("novo calculo (1-sim 2-nao)\n");
-        cin >> op;
-        if(op == 1){
-            i = 0;
-            med = 0.0;
-        }else if(op==2){
-            i = 2;
-            break;
-        }else{
-            printf("novo calculo (1-sim 2-nao)\n");
-            cin >> op;
-        }
+
+        }while(x < 0 || x > 10);
+
+        do{
+            cin >> y;
+            if(y < 0 || y > 10)
+                cout << "nota invalida" << endl;
+
+        }while(y < 0 || y > 10);
+
+        cout << "media = " << fixed << setprecision(2) << ((x + y) / 2)    << endl;
+
+        do{
+            cout << "novo calculo (1-sim 2-nao)" << endl;
+            cin >> value;
+
+        }while(value != 1 && value != 2);
+    
     }
     return 0;
 }
