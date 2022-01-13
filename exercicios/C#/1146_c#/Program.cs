@@ -6,21 +6,18 @@ namespace _1146_c_
     {
         static void Main(string[] args)
         {
-           int n;
-           int[] dados = new int[n];
-
+        
            while(true){
-            
-               n = int.Parse(Console.ReadLine());
-
+                int n = int.Parse(Console.ReadLine());
+                string teste;
                if(n == 0){
                    break;
                }
 
-               for(int i =1;i<=n;i++){
-                   Add(dados[i] = i);
+               for(int i = 1;i<=n;i++){
+                  teste = "%d " + i.ToString();
                }
-               Console.WriteLine(dados);
+               Console.WriteLine(teste);
            }
         }
     }
