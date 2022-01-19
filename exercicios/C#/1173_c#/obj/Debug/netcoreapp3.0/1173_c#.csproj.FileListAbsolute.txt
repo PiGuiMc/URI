@@ -1,0 +1,11 @@
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\bin\Debug\netcoreapp3.0\1173_c#.exe
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\bin\Debug\netcoreapp3.0\1173_c#.deps.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\bin\Debug\netcoreapp3.0\1173_c#.runtimeconfig.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\bin\Debug\netcoreapp3.0\1173_c#.runtimeconfig.dev.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\bin\Debug\netcoreapp3.0\1173_c#.dll
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\bin\Debug\netcoreapp3.0\1173_c#.pdb
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\obj\Debug\netcoreapp3.0\1173_c#.csprojAssemblyReference.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\obj\Debug\netcoreapp3.0\1173_c#.AssemblyInfoInputs.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\obj\Debug\netcoreapp3.0\1173_c#.AssemblyInfo.cs
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\obj\Debug\netcoreapp3.0\1173_c#.dll
+C:\Users\gui\URI Online Judge\exercicios\C#\1173_c#\obj\Debug\netcoreapp3.0\1173_c#.pdb

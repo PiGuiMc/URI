@@ -17,7 +17,6 @@ namespace _1146_c_
                for(int i = 1;i<=n;i++){
                   teste = "%d " + i.ToString();
                }
-               Console.WriteLine(teste);
            }
         }
     }
