@@ -1,0 +1,11 @@
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\bin\Debug\netcoreapp3.0\1914_c#.exe
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\bin\Debug\netcoreapp3.0\1914_c#.deps.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\bin\Debug\netcoreapp3.0\1914_c#.runtimeconfig.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\bin\Debug\netcoreapp3.0\1914_c#.runtimeconfig.dev.json
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\bin\Debug\netcoreapp3.0\1914_c#.dll
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\bin\Debug\netcoreapp3.0\1914_c#.pdb
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\obj\Debug\netcoreapp3.0\1914_c#.csprojAssemblyReference.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\obj\Debug\netcoreapp3.0\1914_c#.AssemblyInfoInputs.cache
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\obj\Debug\netcoreapp3.0\1914_c#.AssemblyInfo.cs
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\obj\Debug\netcoreapp3.0\1914_c#.dll
+C:\Users\gui\URI Online Judge\exercicios\C#\1914_c#\obj\Debug\netcoreapp3.0\1914_c#.pdb

@@ -20,13 +20,20 @@ for(i in 1:n){
     }
     
 }   
-    str1 = 'Percentual de coelhos: %.2f '
-    por = %
+    pc = as.double(((c*100)/(c+r+s)))
+    rpc = paste(sprintf("Percentual de coelhos: %.2f",pc),"%")
+
+    pr = as.double(((r*100)/(c+r+s)))
+    rpr = paste(sprintf("Percentual de ratos: %.2f",pr),"%")
+    
+    ps = as.double(((s*100)/(c+r+s)))
+    rps = paste(sprintf("Percentual de sapos: %.2f",ps),"%")
+
     write(sprintf("Total: %d cobaias",(c+r+s)),'')
     write(sprintf("Total de coelhos: %d",c),'')
     write(sprintf("Total de ratos: %d",r),'')
     write(sprintf("Total de sapos: %d",s),'')
-    write(sprintf(paste(str1,por),((c*100)/(c+r+s)),paste("%")),'')
-    write(sprintf("Percentual de ratos: %.2f",((r*100)/(c+r+s))),'')
-    write(sprintf("Percentual de saapos: %.2f",((s*100)/(c+r+s))),'')
+    write(rpc,'')
+    write(rpr,'')
+    write(rps,'')
     
