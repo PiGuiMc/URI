@@ -6,14 +6,13 @@ soma = as.integer(0)
 total = as.numeric(0)
 ataques = as.numeric(0)
 
-continua = TRUE;
-
 n = as.integer(readLines(input,n=1))
 
 nums <- c(n)
 
 valor = strsplit(readLines(input,n=1)," ")
 
+continua = TRUE
 for(j in 1:n){
     nums[j] = as.integer(valor[[1]][j])
     total = total + nums[j]
