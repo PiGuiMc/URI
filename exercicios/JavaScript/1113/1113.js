@@ -13,6 +13,6 @@ while(true){
     if(x > y){
         console.log("Decrescente");
     }else{
-        console.log("Crescrente");
+        console.log("Crescente");
     }
 }
