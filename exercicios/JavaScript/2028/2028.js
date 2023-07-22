@@ -1,30 +1,26 @@
 var input = require("fs").readFileSync("stdin","utf-8");
 var lines = input.split('\n');
 
-var n = 0;
+var prompt = function(texto) { return lines.shift();};
+for (let cases = 1; true; cases++) {
+  var number = parseInt(prompt());
+  if (isNaN(number)) {
+    break;
+  }
 
-while(lines.length >= 1){
-    n++
+  var sequence = [0];
 
-    var x = parseInt(lines.shift());
-
-    if(x == 0){
-        console.log(`Caso ${n}: 1 numero`)
-    }else{
-        console.log(`Caso ${n}: ${x + 1} numeros`)
+  for (let i = 1; i <= number; i++) {
+    for (let n = 0; n < i; n++) {
+      sequence.push(i);
     }
+  }
 
-    if(x == 0){
-        console.log(0);
-    }
-    for(let i=0;i<x;i++){
-        for(let b=0;b<i;b++){
-            if(i == x && b == x -1){
-                console.log(i)
-            }else{
-                console.log(i + ' ')
-            }
-        }
-    }
+  if (sequence.length == 1) {
+    console.log("Caso " + cases + ": " + sequence.length + " numero");
+  } else {
+    console.log("Caso " + cases + ": " + sequence.length + " numeros");
+  }
+  console.log(sequence.join(" "));
+  console.log("");
 }
-//falta concluir
